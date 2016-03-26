@@ -452,7 +452,7 @@ tinyx313.menu.cpu.attiny4313at16.bootloader.low_fuses=0xFF
 tinyx313.menu.cpu.attiny4313at16.bootloader.high_fuses=0xCF
 tinyx313.menu.cpu.attiny4313at16.bootloader.extended_fuses=0xFF
 tinyx313.menu.cpu.attiny4313at16.bootloader.path=empty
-tinyx313.menu.cpu.attiny4313at16.bootloader.file=empty4313at16.hex
+tinyx313.menu.cpu.attiny4313at16.bootloader.file=empty/empty4313at16.hex
 
 tinyx313.menu.cpu.attiny4313at16.build.mcu=attiny4313
 tinyx313.menu.cpu.attiny4313at16.build.f_cpu=16000000L

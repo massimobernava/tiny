@@ -458,29 +458,30 @@ attiny4313at1.build.core=tiny
 
 ###########################################################################
 
-tinyx313.menu.cpu.attiny4313at16=ATtiny4313 @ 16 MHz  (external crystal; 4.3 V BOD)
+attiny4313at16.name=ATtiny4313 @ 16 MHz  (external crystal; 4.3 V BOD)
 
-tinyx313.menu.cpu.attiny4313at16.upload.tool=arduino:arduinoisp
-tinyx313.menu.cpu.attiny4313at16.upload.maximum_size=4096
-tinyx313.menu.cpu.attiny4313at16.upload.maximum_data_size=256
+attiny4313at16.upload.tool=arduino:arduinoisp
+
+attiny4313at16.upload.maximum_size=4096
+attiny4313at16.upload.maximum_data_size=256
 
 # Frequency 16.0- MHz; Start-up time PWRDWN/RESET: 16K CK/14 CK + 65 ms
-
 # Brown-out detection level at VCC=4.3 V
-
 # Preserve EEPROM memory through the Chip Erase cycle
-
 # Serial program downloading (SPI) enabled
 
-tinyx313.menu.cpu.attiny4313at16.bootloader.low_fuses=0xFF
-tinyx313.menu.cpu.attiny4313at16.bootloader.high_fuses=0xCF
-tinyx313.menu.cpu.attiny4313at16.bootloader.extended_fuses=0xFF
-tinyx313.menu.cpu.attiny4313at16.bootloader.path=empty
-tinyx313.menu.cpu.attiny4313at16.bootloader.file=empty4313at16.hex
+attiny4313at16.bootloader.low_fuses=0xFF
+attiny4313at16.bootloader.high_fuses=0xCF
+attiny4313at16.bootloader.extended_fuses=0xFF
 
-tinyx313.menu.cpu.attiny4313at16.build.mcu=attiny4313
-tinyx313.menu.cpu.attiny4313at16.build.f_cpu=16000000L
-tinyx313.menu.cpu.attiny4313at16.build.core=tiny
+attiny4313at16.bootloader.path=empty
+attiny4313at16.bootloader.file=empty4313at16.hex
+attiny4313at16.bootloader.tool=arduino:avrdude
+
+attiny4313at16.build.mcu=attiny4313
+attiny4313at16.build.f_cpu=16000000L
+attiny4313at16.build.core=tiny
+
 
 ###########################################################################
 
