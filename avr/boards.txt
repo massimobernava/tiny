@@ -444,11 +444,8 @@ tinyx313.menu.cpu.attiny4313at16.upload.maximum_size=4096
 tinyx313.menu.cpu.attiny4313at16.upload.maximum_data_size=256
 
 # Frequency 16.0- MHz; Start-up time PWRDWN/RESET: 16K CK/14 CK + 65 ms
-
 # Brown-out detection level at VCC=4.3 V
-
 # Preserve EEPROM memory through the Chip Erase cycle
-
 # Serial program downloading (SPI) enabled
 
 tinyx313.menu.cpu.attiny4313at16.bootloader.low_fuses=0xFF
